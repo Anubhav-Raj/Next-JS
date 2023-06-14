@@ -139,3 +139,55 @@ export default function Home() {
     </main>
   );
 }
+
+//Toturial 9
+/*Nested Routing:  jab ek page ke under  ek ya user jada page hote hia usse nested routing  khate hai
+
+Normal Routing      Nested Routing
+1.Home                  1.Home
+
+2. About US             2.About Us
+                           1.About Student
+                           2. About Collage 
+
+3.Login                  3.Login  
+                            1.Student Login
+                            2. Teacher Login 
+
+ Nested Routing 
+ Ex: 
+  localhost:3000/about/aboutteacher
+  src/about/aboutteacher/page.js
+
+  localhost:3000/about/aboutstudent
+  src/about/aboutstudent/page.js
+ 
+  folder: about ke under  abboutstudent and aboutteacher and login me loginstudent and loginteacher
+ 
+ */
+
+//Toturial 10
+
+/*
+Common Layout:    jo maximumn sab page ho like(Header, footer,NavBar, sidebar etc)
+ 
+ ye jo layout.js(root or stating page) hai  isme vo code likhe ge jo hame sab page pe comman chiye
+ye aapne  child ko common layout pardan krti hai
+
+  folder: about ke under  aboutstudent and aboutteacher and login me loginstudent and loginteacher layout.js file
+
+ */
+
+/* 
+Toturial 11
+conditional Layout :  suppose  login or signup  page pe hame  nav bar nahi dikhna hoti hai  to vo kasie hoga.. user ke condition ke hishab se  layout dikhe use conditional layout kahate hai
+  
+  folder: login ke  under layout js
+
+ */
+
+/*
+   Toturial 12
+    Dynamic Route: 
+   
+  */
