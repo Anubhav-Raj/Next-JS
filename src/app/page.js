@@ -188,6 +188,20 @@ conditional Layout :  suppose  login or signup  page pe hame  nav bar nahi dikhn
 
 /*
    Toturial 12
-    Dynamic Route: 
-   
+    Dynamic Route:
+    example:  suppose hamare pass bahut seare prodult ka list hai.  or sab product ki particul id hai , jab ham kisi bhi ek product pr click krte hai to uski sari details  hame show hoti hai ,, or  ager ham noties kare to jo url hoti hai vo bhi use product id ke according chage hoti hai  use  dynamic routing boatr hai
+
   */
+
+/* 
+      Toturial 13
+      Catch-all Segments of Route: 
+    */
+
+/*
+        Toturial 14
+          Error 404:  
+          create own  404 page  globle (file name must be not-found.js )
+
+           create couston 404 page for specific route ?
+      */
